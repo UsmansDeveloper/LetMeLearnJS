@@ -1,0 +1,74 @@
+        * { 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+        body {
+        margin: 0;
+        line-height: 1.75;
+        }
+        .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        background-color:rgba(252, 239, 99, 0.8);
+        padding: 0.2px;
+        line-height: 23px;
+        margin-top: 35px;
+        border-radius: 70px 0 70px 0;
+        box-shadow: -7px -5px 5px 5px rgba(43, 89, 115, 0.8);
+        box-sizing: fixed;
+        overflow: hidden;
+     
+        }
+
+        @media (min-width: 768px) {
+        .container {
+          width: 720px;
+        } 
+        }
+
+        h1{
+        text-align: center;
+        background: rgba(43, 89, 115, 1);
+       
+        line-height: 1;
+        padding: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        li{
+        color: rgb(43, 89, 112);
+        /*color: rgba(43, 89, 112);*/
+        font-size: 20px;
+        font-family: serif;
+    
+
+        }
+        a:link{
+            text-decoration: none;
+            color: rgb(43, 89, 112);
+
+        }
+        a:hover{
+            background-color: rgb(43, 89, 112);
+            font-size: 22px;
+            color: rgb(252, 239, 99);
+
+        }
+        #mylist {
+        list-style-type: lower-alpha;
+        margin-left: -20px;
+
+        }
+        body {
+        background: url(images/minions.jpeg);
+        }
+
+        .cover-background {
+        background-size:     cover;                      
+        background-repeat:   no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        }
